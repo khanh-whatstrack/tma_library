@@ -20,16 +20,16 @@ const Home = () => {
       <h1>Home</h1>
       <div className="  h-[150px] w-[150px] rounded-full border-[1px] border-black relative">
         <img
-          src={accountuser.photoURL}
+          src={accountuser?.photoURL}
           alt=""
           className=" absolute w-full h-full rounded-full"
         />
       </div>
       <p>
-        Email:<span>{accountuser.email}</span>
+        Email:<span>{accountuser?.email}</span>
       </p>
       <p>
-        Username:<span>{accountuser.displayName}</span>
+        Username:<span>{accountuser?.displayName}</span>
       </p>
       <button
         onClick={handleSignout}

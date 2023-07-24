@@ -26,7 +26,7 @@ const Signup = () => {
       });
   };
   const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
+    // console.log("Failed:", errorInfo);
   };
   return (
     <div className=" relative flex h-[100vh] bg-slate-400 ">
